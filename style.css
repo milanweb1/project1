@@ -1,0 +1,251 @@
+
+* {
+
+  margin: 0;
+  padding: 0;
+
+}
+
+body {
+
+	background-color: black;
+}
+
+
+
+#header{
+
+width: 100%;
+height: 680px;
+background-image: url(cassette.jpg);
+
+
+
+
+}
+
+
+#nav {
+
+float: right;
+
+
+}
+
+
+
+#nav ul li {
+    display: inline;
+	color: white;
+	padding: 10px;
+	font-size: 20px;
+	border-right: 1px solid white;
+
+
+}
+
+a:hover{
+     font-size: 30px;
+     color:#e0e0d1; 
+
+}
+
+
+.heading {
+
+	color:#e0e0d1;
+	font-size: 100px;
+	text-align: center;
+	padding-top: 340px;
+	font-family:Helvetica;
+	text-decoration: underline overline;
+	text-decoration-color: black;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.heading::first-letter {
+    
+    color: black;
+    text-shadow:2px 2px red; 
+    width: 100px;
+	height:100px;
+	
+
+}
+
+
+.logo{
+ 
+	position: fixed;
+	
+
+	
+
+}
+
+.logo img{
+
+	width: 150px;
+	height:100px;
+	position: relative;
+	right:20px;
+	bottom:17px;
+
+
+}
+
+
+.section1 {
+
+width: 100%;
+height: 580px;
+background-image: url(section1.jpg);
+background-size: cover;
+margin-top: 10px;
+
+
+}
+
+
+.section1 h2 {
+
+	color: #e0e0d1;
+	font-size: 50px;
+	text-align: center;
+}
+
+.section1 p {
+
+	color: #e0e0d1;
+	font-size: 50px;
+	text-align: center;
+}
+
+
+
+.albumi {
+
+	color: #e0e0d1;
+	font-size: 30px;
+	text-align: center;
+
+}
+
+.textcontainer{
+    
+	width: 50%;
+	height: 400px;
+	margin-top: 15px;
+
+}
+
+.textcontainer1{
+	background-color: #424443;
+	width: 25%;
+	float: left;
+}
+
+.textcontainer2{
+	background-color:  #808080;
+	width: 25%;
+    float: left;
+
+	
+}
+
+.textcontainer3{
+	background-color: #424443;
+	width: 25%;
+	float: left;
+
+	
+}
+
+.textcontainer4{
+	background-color: #808080;
+	width: 25%;
+    float: left;
+
+}
+
+.cover {
+
+	width: 300px;
+	height: 300px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10px;
+	display: block;
+}
+
+h3 {
+
+	text-align: center;
+	color: #e0e0d1;
+}
+
+
+.quote {
+
+	width: 50%;
+	height: 400px;
+	margin-top: 60px;
+
+
+
+}
+
+.quoutebox1 {
+
+	width: 33.3333333333%;
+	background-color: #808080;
+	float: left;
+	background-image: url(quote1.jpg);
+    background-size: cover;
+	background-repeat: no-repeat;
+	height: 600px;
+
+}
+
+.quoutebox2{
+
+	width: 33.3333333333%;
+	background-color:#424443;
+    float: left;
+    background-image: url(quote3.jpg);
+    background-size: cover;
+	background-repeat: no-repeat;
+	height: 600px;
+
+
+}
+
+
+.quoutebox3{
+
+	width: 33.3333333333%;
+	background-color: #808080;
+	float: left;
+	background-image: url(quote2.jpg);
+    background-size: cover;
+	background-repeat: no-repeat;
+		height: 600px;
+
+    
+
+}
+
+
+
+.footerinfo{
+
+
+	font-size: 50px;
+	color: white;
+	text-align: center;
+}
+
+
+
+
+
